@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;800&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 13px;
+    background: white;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #db2777;
+    border-radius: 10px;
+  }
+
+  h1 {
+    @apply text-3xl font-bold pt-6 text-darkred;
+  }
+
+  
+}
