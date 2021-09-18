@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     colors: {
       darkred: '#DB2777',
-      darkgrey: '#626262',
+      darkgrey: '#2c2c2c',
+      lightgrey: '#5c5c5c',
+      blue: '#2777DB',
       white: '#ffff'
     },
     fontFamily: {
@@ -50,7 +52,8 @@ module.exports = {
         '20/20': '100%'
       },
       fontFamily: {
-        body: ['Oxanium', 'ui-sans-serif', 'system-ui']
+        body: ['Roboto', 'ui-sans-serif', 'system-ui'],
+        header: ['Oxanium']
       },
       keyframes: {
         wave: {
