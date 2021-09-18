@@ -1,5 +1,5 @@
 import '../styles/tailwind.css'
-import Header from '../components/Header'
+import Header from '../components/navigation/Header'
 
 import type { AppProps } from 'next/app'
 
@@ -7,7 +7,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Header />
-      <Component {...pageProps} />
+      <div className='bg-darkgrey'>
+        <Component {...pageProps} />
+      </div>
     </>
   )
 }
