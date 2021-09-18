@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;800&family=Roboto&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -7,20 +6,44 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #db2777 #2c2c2c;
   }
-
-  ::-webkit-scrollbar {
-    width: 13px;
-    background: white;
+  body::-webkit-scrollbar {
+    width: 12px;
   }
-  ::-webkit-scrollbar-thumb {
-    background: #db2777;
+  body::-webkit-scrollbar-track {
+    background: #2c2c2c;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #db2777;
+    border: 3px solid #2c2c2c;
     border-radius: 10px;
   }
 
   h1 {
-    @apply text-3xl font-bold pt-6 text-darkred;
+    @apply text-3xl font-bold text-darkred font-header;
   }
 
-  
+  h2 {
+    @apply text-2xl text-darkred font-header;
+  }
+
+  p {
+    @apply leading-loose text-base sm:text-lg font-body text-white opacity-80;
+  }
+
+  section {
+    @apply max-w-5xl min-h-screen relative;
+  }
+
+  a {
+    @apply text-darkred  hover:text-blue hover:underline;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-sm overflow-hidden shadow-md px-5 py-4;
+  }
 }
