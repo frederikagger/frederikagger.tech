@@ -37,9 +37,6 @@
     @apply max-w-5xl min-h-screen relative;
   }
 
-  a {
-    @apply text-darkred  hover:text-blue hover:underline;
-  }
 }
 
 @layer components {
