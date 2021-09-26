@@ -1,6 +1,6 @@
 export const HeaderLinksData = [
   {
-    title: 'About', href: '#about'
+    title: 'Work', href: '#work'
   },
   {
     title: 'Skills', href: '#skills'
@@ -9,6 +9,6 @@ export const HeaderLinksData = [
     title: 'Contact', href: '#contact'
   },
   {
-    title: 'Work', href: '#work'
-  }
+    title: 'About', href: '#about'
+  },
 ]
