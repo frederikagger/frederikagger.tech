@@ -18,7 +18,7 @@ export default function Skills() {
         libraries. But my favorites and the ones I use the most are the
         following:
       </p>
-      <div className='mt-16 max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-14 mx-auto'>
+      <div className='mt-16 max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-14 mx-auto'>
         {skills?.map(skill => (
           <SkillsCard key={skill.name} skill={skill} />
         ))}
