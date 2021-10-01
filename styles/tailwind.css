@@ -37,6 +37,23 @@
     @apply max-w-5xl min-h-screen relative;
   }
 
+  .animateSidebar-enter {
+    transform: translateX(-100%);
+  }
+
+  .animateSidebar-enter-active {
+    transform: translateX(0);
+    transition: transform 275ms ease-out;
+  }
+
+  .animateSidebar-exit {
+    transform: translateX(0);
+  }
+
+  .animateSidebar-exit-active {
+    transform: translateX(-100%);
+    transition: transform 275ms ease-in;
+  }
 }
 
 @layer components {
