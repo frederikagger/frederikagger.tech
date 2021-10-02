@@ -64,7 +64,7 @@ module.exports = {
         '20/20': '100%'
       },
       fontFamily: {
-        body: ['Roboto', 'ui-sans-serif', 'system-ui'],
+        body: ['Poppins', 'ui-sans-serif', 'system-ui'],
         header: ['Oxanium']
       },
       keyframes: {
