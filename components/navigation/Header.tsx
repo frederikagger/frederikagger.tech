@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { CSSTransition } from 'react-transition-group'
 
 import { HeaderLinksData } from '../../data/HeaderLinksData'
-import HamburgerIcon from '../icons/hamburgerIcon'
+import HamburgerIcon from '../icons/HamburgerIcon'
 import Sidebar from './Sidebar'
 
 export default function Header() {
