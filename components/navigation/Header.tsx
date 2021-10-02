@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { CSSTransition } from 'react-transition-group'
 
 import { HeaderLinksData } from '../../data/HeaderLinksData'
+import HamburgerIcon from '../icons/hamburgerIcon'
 import Sidebar from './Sidebar'
 
 export default function Header() {
@@ -15,11 +16,11 @@ export default function Header() {
       <div className='max-w-5xl mx-auto px-4 sm:px-6'>
         <div className='flex justify-between items-center py-4 sm:py-6 md:space-x-10'>
           <div className='flex justify-start lg:w-0 lg:flex-1'>
-            <a href='#' className='text-darkred text-xl font-extrabold'>
+            <a href='#' className='text-darkred z-50 text-xl font-extrabold'>
               FA
             </a>
           </div>
-          <div className='-mr-2 -my-2 md:hidden'>
+          <div className='-mr-2 -my-2 sm:hidden'>
             <button
               onClick={toggleSidebar}
               type='button'
@@ -27,22 +28,7 @@ export default function Header() {
               aria-expanded='false'
             >
               <span className='sr-only'>Open menu</span>
-              {/* <!-- Heroicon name: outline/menu --> */}
-              <svg
-                className='h-6 w-6'
-                xmlns='http://www.w3.org/2000/svg'
-                fill='#db2777'
-                viewBox='0 0 24 24'
-                stroke='#db2777'
-                aria-hidden='true'
-              >
-                <path
-                  strokeLinecap='square'
-                  strokeLinejoin='round'
-                  strokeWidth='2'
-                  d='M4 6h16M4 12h16M4 18h16'
-                />
-              </svg>
+              <HamburgerIcon />
             </button>
           </div>
           <nav className='hidden sm:flex space-x-14'>
@@ -61,7 +47,7 @@ export default function Header() {
 
       <CSSTransition
         in={isSideBarVisible}
-        timeout={300}
+        timeout={200}
         mountOnEnter
         unmountOnExit
         classNames='animateSidebar'
