@@ -3,11 +3,16 @@ export default function About() {
     <section id='about' className='mx-auto px-4 sm:px-6'>
       <h1 className='mb-3 pt-24'>ABOUT</h1>
       <p className='leading-loose'>
-        {"I'm"} a very passionate person who enjoys technology, animals,
-        politics, science and much more.
+        I live in Nørrebro in Copenhagen with my girlfriend and our beautiful
+        Yorkie Arnold 👩‍❤️‍👨🐶
+      </p>
+      <br />
+      <p>
+        I have a lot of interests. The primary being technology, music and
+        politics.
       </p>
       <p className='leading-loose mt-8'>
-        currently employed at{' '}
+        {"I'm"} currently employed at{' '}
         <a
           target='_blank'
           className='font-bold hover:text-blue'

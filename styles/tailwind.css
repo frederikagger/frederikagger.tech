@@ -7,6 +7,7 @@
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: #db2777 #2c2c2c;
+    @apply tracking-wide;
   }
   body::-webkit-scrollbar {
     width: 12px;
