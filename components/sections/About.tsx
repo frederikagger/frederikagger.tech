@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id='about' className='mx-auto px-4 sm:px-6'>
-      <h1 className='mb-3 pt-16 md:pt-24'>ABOUT</h1>
+      <h1 className='mb-3 pt-24'>ABOUT</h1>
       <p className='leading-loose'>
         {"I'm"} a very passionate person who enjoys technology, animals,
         politics, science and much more.

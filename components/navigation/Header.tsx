@@ -35,7 +35,7 @@ export default function Header() {
             {HeaderLinksData.map(link => (
               <a
                 key={link.href}
-                className='text-darkred text-xl uppercase'
+                className='text-darkred font-semibold text-xl uppercase'
                 href={link.href}
               >
                 {link.title}
