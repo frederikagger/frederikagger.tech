@@ -12,7 +12,7 @@ export const skills: Skill[] = [
   },
   {
     name: 'TypeScript', color: '#3178c6', icon: '', description: 'I usually choose TypeScript over JavaScript. I think TypeScript is great at letting developers\
-   express intent through code rather than comments' },
+   express intent through code rather than through comments.' },
   {
     name: 'React',
     link: 'https://reactjs.org/',
