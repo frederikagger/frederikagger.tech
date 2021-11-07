@@ -30,7 +30,7 @@ const Contact = () => {
       <h1 className='pt-20'>CONTACT</h1>
 
       {serverState.succeeded ? (
-        <h1>Thanks for submitting!</h1>
+        <h3 className='mt-10'>Message was submitted</h3>
       ) : (
         <form
           className='flex flex-col gap-1 mt-3'
