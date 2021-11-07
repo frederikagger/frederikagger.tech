@@ -5,7 +5,7 @@ import { Project } from '../sections/Work'
 const WorkCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
     <div className='shadow-2xl transform-gpu transition-transform hover:scale-105'>
-      <a href={project.url}>
+      <a href={project.url} target='_blank' rel='noreferrer'>
         <h3>{project.name}</h3>
         <Image
           className='rounded-md '
