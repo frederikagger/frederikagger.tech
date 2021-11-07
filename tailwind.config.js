@@ -19,7 +19,8 @@ module.exports = {
       darkgrey: '#2c2c2c',
       lightgrey: '#5c5c5c',
       blue: '#2777DB',
-      white: '#ffff'
+      white: '#ffff',
+      black: '#111827'
     },
     fontFamily: {
       sans: [

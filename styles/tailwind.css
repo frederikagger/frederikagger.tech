@@ -21,6 +21,14 @@
     border-radius: 10px;
   }
 
+  input {
+    @apply shadow appearance-none border-0 text-darkgrey focus:ring-2 focus:ring-blue rounded-md text-lg w-full py-2 px-3 mb-3 font-body focus:outline-none;
+  }
+
+  textarea {
+    @apply shadow appearance-none border-0 text-darkgrey focus:ring-2 focus:ring-blue rounded-md text-lg w-full py-2 h-32 px-3 mb-3 font-body focus:outline-none;
+  }
+
   h1 {
     @apply text-3xl font-bold text-darkred font-header;
   }
@@ -40,7 +48,10 @@
   section {
     @apply max-w-5xl min-h-screen relative;
   }
-  
+
+  label {
+    @apply appearance-none text-white font-body text-lg;
+  }
 
   .animateSidebar-enter {
     transform: translateX(-100%);
@@ -64,5 +75,9 @@
 @layer components {
   .card {
     @apply rounded-sm overflow-hidden shadow-md px-5 py-4;
+  }
+
+  .button {
+    @apply border rounded-md font-body hover:opacity-90 border-blue font-medium w-full py-2 px-2 appearance-none;
   }
 }

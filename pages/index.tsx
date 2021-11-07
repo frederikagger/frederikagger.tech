@@ -4,8 +4,9 @@ import Skills from '../components/sections/Skills'
 import Contact from '../components/sections/Contact'
 import Hero from '../components/sections/Hero'
 import Work from '../components/sections/Work'
+import Footer from '../components/sections/Footer'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -13,13 +14,16 @@ export default function Home() {
         <meta name='description' content='Portfolio' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div>
+      <>
         <Hero />
         <Work />
         <Skills />
         <Contact />
         <About />
-      </div>
+        <Footer />
+      </>
     </>
   )
 }
+
+export default Home
