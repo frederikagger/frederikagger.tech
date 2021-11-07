@@ -8,9 +8,9 @@ export const projects: Project[] = [
     name: 'Frederik Aggers Portfolio', url: 'https://frederikagger.tech', img: 'frederikagger.png', tags: ['React', 'Next', 'TailwindCSS'], alt: "My own portfolio"
   },
   {
-    name: 'Dojo', url: 'https://dojo.dk/', img: 'dojo.png', tags: ['React', 'Next', 'Tailwindcss', 'Firebase'], alt: 'Dojo app'
+    name: 'Dojo', url: 'https://dojo.dk/', img: 'Dojo.PNG', tags: ['React', 'Next', 'Tailwindcss', 'Firebase'], alt: 'Dojo app'
   },
   {
-    name: 'WeCode', url: 'https://wecode.com/', img: 'wecode.png', tags: ['Vue', 'Statamic', 'TailwindCSS', 'SCSS'], alt: 'Wecode site'
+    name: 'WeCode', url: 'https://wecode.com/', img: 'wecode.PNG', tags: ['Vue', 'Statamic', 'TailwindCSS', 'SCSS'], alt: 'Wecode site'
   },
 ]
